@@ -6,8 +6,13 @@ Ex: Ana Maria de Souza
 Primeiro: Ana
 Último: Souza
 """
-print('='*10, ' DESAFIO 027 - Proposto - Aula 09 ', '='*10)
+print('='*10, ' DESAFIO 027 - Proposto / Resolução - Aula 09 ', '='*10)
+
+nc = str(input('Digite seu nome completo: ')).strip()
+
+nome = nc.split()
+
+print('Seu primeiro nome é {}'.format(nome[0]))
+print('Seu último nome nome é {}'.format(nome[len(nome)-1]))
 
 print('='*30)
-
-print('='*10, ' DESAFIO 027 - Resolução - Aula 09', '='*10)
